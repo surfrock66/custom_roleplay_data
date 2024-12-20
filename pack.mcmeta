@@ -1,9 +1,9 @@
 {
   "pack": {
-    "pack_format": 57,
+    "pack_format": 61,
     "supported_formats": {
       "min_inclusive": 7,
-      "max_inclusive": 57
+      "max_inclusive": 61
     },
     "description": [
       {
@@ -13,6 +13,10 @@
       {
         "text": "\nDatapack by MukiTanuki",
         "color": "yellow"
+      },
+      {
+        "text": "\nModifications by Surfrock66",
+        "color": "green"
       }
     ]
   },
@@ -36,6 +40,13 @@
         "directory": "v57",
         "formats": {
           "min_inclusive": 57,
+          "max_inclusive": 57
+        }
+      },
+      {
+        "directory": "v61",
+        "formats": {
+          "min_inclusive": 61,
           "max_inclusive": 9999999
         }
       }
