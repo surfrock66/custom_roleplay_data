@@ -4,7 +4,7 @@ These resource packs serve as tests to help you understand how to format a resou
 
 There are some important notes:
 
-- The "Supported Formats" selector in pack.mcmeta doesn't work before 1.20.2 and your resource packs will show up as incompatible, and worse of all even if you bypass the warning, custom models load inconistently.  By directly targeting the pack format, it will work.
+- The "Supported Formats" selector in pack.mcmeta doesn't work before 1.20.2 and your resource packs will show up as incompatible, and worst of all even if you bypass the warning, custom models load inconistently.  By directly targeting the pack format, it will work.
 - For versions before 1.21.4, you must use the "predicate" syntax to indicate a numerical entry for your custom model, in a custom item/block definition under the minecraft namespace.  See "carved_pumpkin" as an example.
     - To demonstrate changing the model to "Test 1", with the item selected in your hotbar run "/trigger CustomModelData set 1"
 - For versions starting with 1.21.4, if you want to refer to your models by name (which is NOT backwards compatible) you must use the "select" syntax to indicate a name for your custom model, in a custom item/block definition under the minecraft namespace.  See "carved_pumpkin" as an example.
