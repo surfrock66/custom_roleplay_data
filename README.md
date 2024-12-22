@@ -65,3 +65,9 @@ To support this, the following examples are meant to assist in formatting resour
   }
 }
 ```
+
+## Demo/Testing Resource Pack
+I have provided a sample resource pack to show how the commands work and how to format resource packs across different versions.  There are the following 3 custom models:
+- For minecraft **1.21.3 and earlier**, there is a custom model for a **carved pumpkin** "CRD Test 1" available with command "/trigger CustomModelData set 1"
+- For minecraft **1.21.4**, there is a custom model for a **carved pumpkin** "CRD Test 2" where the model is referenced with strings, using "select", available after renaming the item "test2" and running the command "/trigger CustomModelName"
+- For minecraft **1.21.4**, there is a custom model for a **dirt block** "CRD Test 3" where the model is referenced with numbers, available with command "/trigger CustomModelData set 3"
