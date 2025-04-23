@@ -1,9 +1,9 @@
 {
   "pack": {
-    "pack_format": 61,
+    "pack_format": 71,
     "supported_formats": {
       "min_inclusive": 7,
-      "max_inclusive": 61
+      "max_inclusive": 71
     },
     "description": [
       {
@@ -61,6 +61,13 @@
         "directory": "v61",
         "formats": {
           "min_inclusive": 61,
+          "max_inclusive": 61
+        }
+      },
+      {
+        "directory": "v71",
+        "formats": {
+          "min_inclusive": 71,
           "max_inclusive": 9999999
         }
       }

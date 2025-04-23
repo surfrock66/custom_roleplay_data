@@ -6,9 +6,9 @@
 
 - Resource Pack Version 42 or less (1.21.3 or less) and Data Pack version 57 or less (1.21.3 or less): Resource packs must reference custom models by integers.
     - The command would be "/trigger CustomModelData set #" and might require a number of levels (default 1 but configurable)
-- Resource Pack Version 46 (1.21.4) supporting models referenced by numbers and Data Pack version 61 (1.21.4): Resource packs must reference custom models by range_dispatch and threshholds
+- Resource Pack Version 46 (1.21.4) or later supporting models referenced by numbers and Data Pack version 61 (1.21.4) or later: Resource packs must reference custom models by range_dispatch and threshholds
     - The command would be "/trigger CustomModelData set #" and might require a number of levels (default 1 but configurable)
-- Resource Pack Version 46 (1.21.4) supporting models referenced by strings and Data Pack version 61 (1.21.4): Resource packs must reference custom models by select and string
+- Resource Pack Version 46 (1.21.4) or later supporting models referenced by strings and Data Pack version 61 (1.21.4) or later: Resource packs must reference custom models by select and string
     - The item should be renamed in an anvil to the exact string that references the model
     - The command would be "/trigger CustomModelName" and does not require levels other than those needed to rename the item
  
@@ -26,7 +26,7 @@ To support this, the following examples are meant to assist in formatting resour
   ]
 }
 ```
-- Resource Pack Version 61 (1.21.4) using numbers/floats (in assets/minecraft/models/item/carved_pumpkin.json)
+- Resource Pack Version 46-55 (1.21.4-1.21.5) using numbers/floats (in assets/minecraft/models/item/carved_pumpkin.json)
 ```
 {
   "model": {
@@ -46,7 +46,7 @@ To support this, the following examples are meant to assist in formatting resour
   }
 }
 ```
-- Resource Pack Version 61 (1.21.4) using strings/names (in assets/minecraft/models/item/carved_pumpkin.json)
+- Resource Pack Version 46-55 (1.21.4-1.21.5) using strings/names (in assets/minecraft/models/item/carved_pumpkin.json)
 ```
 {
   "model": {
@@ -69,5 +69,5 @@ To support this, the following examples are meant to assist in formatting resour
 ## Demo/Testing Resource Pack
 I have provided a sample resource pack to show how the commands work and how to format resource packs across different versions.  There are the following 3 custom models:
 - For minecraft **1.21.3 and earlier**, there is a custom model for a **carved pumpkin** "CRD Test 1" available with command "/trigger CustomModelData set 1"
-- For minecraft **1.21.4**, there is a custom model for a **carved pumpkin** "CRD Test 2" where the model is referenced with strings, using "select", available after renaming the item "test2" and running the command "/trigger CustomModelName"
-- For minecraft **1.21.4**, there is a custom model for a **dirt block** "CRD Test 3" where the model is referenced with numbers, available with command "/trigger CustomModelData set 3"
+- For minecraft **1.21.4 and later**, there is a custom model for a **carved pumpkin** "CRD Test 2" where the model is referenced with strings, using "select", available after renaming the item "test2" and running the command "/trigger CustomModelName"
+- For minecraft **1.21.4 and later**, there is a custom model for a **dirt block** "CRD Test 3" where the model is referenced with numbers, available with command "/trigger CustomModelData set 3"

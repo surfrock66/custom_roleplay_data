@@ -1,0 +1,22 @@
+{
+    "pack": {
+        "pack_format": 55,
+        "supported_formats": {
+            "min_inclusive": 18,
+            "max_inclusive": 55
+        },
+        "description": "Custom Roleplay Data Test Resource Pack by surfrock66"
+    },
+	"overlays": {
+		"entries": [
+			{
+				"formats": {"min_inclusive": 18, "max_inclusive": 42},
+				"directory": "overlay_crdt_042-018"
+			},
+			{
+				"formats": {"min_inclusive": 46, "max_inclusive": 55},
+				"directory": "overlay_crdt_046-055"
+			}
+		]
+	}
+}
