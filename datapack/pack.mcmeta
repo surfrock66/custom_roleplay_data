@@ -1,9 +1,11 @@
 {
   "pack": {
-    "pack_format": 81,
+    "pack_format": 88.0,
+    "min_format": 7,
+    "max_format": [88, 0],
     "supported_formats": {
       "min_inclusive": 7,
-      "max_inclusive": 81
+      "max_inclusive": 88.0
     },
     "description": [
       {
@@ -24,6 +26,8 @@
     "entries": [
       {
         "directory": "v15-26",
+        "min_format": 15,
+        "max_format": 26,
         "formats": {
           "min_inclusive": 15,
           "max_inclusive": 26
@@ -31,6 +35,8 @@
       },
       {
         "directory": "v26",
+        "min_format": 26,
+        "max_format": 26,
         "formats": {
           "min_inclusive": 26,
           "max_inclusive": 26
@@ -38,6 +44,8 @@
       },
       {
         "directory": "v41",
+        "min_format": 41,
+        "max_format": 41,
         "formats": {
           "min_inclusive": 41,
           "max_inclusive": 41
@@ -45,6 +53,8 @@
       },
       {
         "directory": "v48",
+        "min_format": 48,
+        "max_format": 48,
         "formats": {
           "min_inclusive": 48,
           "max_inclusive": 48
@@ -52,6 +62,8 @@
       },
       {
         "directory": "v57",
+        "min_format": 57,
+        "max_format": 57,
         "formats": {
           "min_inclusive": 57,
           "max_inclusive": 57
@@ -59,13 +71,17 @@
       },
       {
         "directory": "v61",
+        "min_format": 61,
+        "max_format": 61,
         "formats": {
           "min_inclusive": 61,
           "max_inclusive": 61
         }
       },
       {
-        "directory": "v71-81",
+        "directory": "v71-88.0",
+        "min_format": 71,
+        "max_format": 9999999,
         "formats": {
           "min_inclusive": 71,
           "max_inclusive": 9999999

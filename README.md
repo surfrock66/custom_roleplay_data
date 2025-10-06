@@ -26,7 +26,7 @@ To support this, the following examples are meant to assist in formatting resour
   ]
 }
 ```
-- Resource Pack Version 46-55 (1.21.4-1.21.5) using numbers/floats (in assets/minecraft/models/item/carved_pumpkin.json)
+- Resource Pack Version 46+ (1.21.4-1.21.9) using numbers/floats (in assets/minecraft/models/item/carved_pumpkin.json)
 ```
 {
   "model": {
@@ -46,7 +46,7 @@ To support this, the following examples are meant to assist in formatting resour
   }
 }
 ```
-- Resource Pack Version 46-55 (1.21.4-1.21.5) using strings/names (in assets/minecraft/models/item/carved_pumpkin.json)
+- Resource Pack Version 46+ (1.21.4-1.21.9) using strings/names (in assets/minecraft/models/item/carved_pumpkin.json)
 ```
 {
   "model": {
