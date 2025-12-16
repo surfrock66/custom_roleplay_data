@@ -1,11 +1,11 @@
 {
   "pack": {
-    "pack_format": 88.0,
+    "pack_format": 94.1,
     "min_format": 7,
-    "max_format": [88, 0],
+    "max_format": [94, 1],
     "supported_formats": {
       "min_inclusive": 7,
-      "max_inclusive": 88.0
+      "max_inclusive": 94.1
     },
     "description": [
       {

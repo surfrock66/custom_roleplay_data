@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/carved_pumpkin"
+    },
+    "cases": [
+      { "when": "test2", "model": { "type": "model", "model": "crd_test:item/custom_roleplay_data_test2" } }
+    ]
+  }
+}
+
